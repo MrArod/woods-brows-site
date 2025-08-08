@@ -63,7 +63,8 @@ img { max-width: 100%; display: block; }
   text-align: center;
   padding: 80px 24px;
   color: var(--charcoal);
-  background: url('../img/hero.jpg') no-repeat center/cover;
+  /* Updated image path to reflect repository structure */
+  background: url('../hero.jpg') no-repeat center/cover;
 }
 /* Add a soft overlay to the hero for better text contrast */
 .hero::before {
